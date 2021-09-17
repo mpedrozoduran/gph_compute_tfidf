@@ -15,11 +15,7 @@ TF-IDF Computation API
 `docker run -it -p 5000:5000 mpedrozoduran/gph_compute_tfidf:1.0.0`
 * Or to compile the project:
 
-<br>
-
 `virtualenv -p python3 venv`
-
-<br>
 
 `pip install -r requirements.txt`
 
