@@ -26,7 +26,7 @@ Here you will find a swagger interface to test the project.
 * The basics for TF-IDF computation were taken from: <br>
 [https://www.kaggle.com/snapcrack/all-the-news](https://www.kaggle.com/snapcrack/all-the-news) 
 <br>
-[https://medium.com/@cmukesh8688/tf-idf-vectorizer-scikit-learn-dbc0244a911a](https://www.kaggle.com/snapcrack/all-the-news)
+[https://medium.com/@cmukesh8688/tf-idf-vectorizer-scikit-learn-dbc0244a911a](https://medium.com/@cmukesh8688/tf-idf-vectorizer-scikit-learn-dbc0244a911a)
 <br>
 
 **2.** No need to actually implement this, just explain how you would do it. How would you design a system that, in addition to computing TF-IDF counts for the provided URL upon request, updates the IDF statistics whenever TF-IDF for a previously unseen URL is requested? How would you deploy this on AWS or GCP?
