@@ -7,18 +7,16 @@ TF-IDF Computation API
 
 `/tfidf?url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTf-idf&limit=10`
 <br>
-* To run the project using a docker image, open a terminal window and paste the following commands:<br>
+* To run the project using a docker image, open a terminal window and paste the following commands:
+<br>
 `docker pull mpedrozoduran/gph_compute_tfidf:1.0.0` 
 <br>
 `docker run -it -p 5000:5000 mpedrozoduran/gph_compute_tfidf:1.0.0`
 * Or to compile the project:
-<br>
 `virtualenv -p python3 venv`
-<br>
 `pip install -r requirements.txt`
 <br>
 * Then open a browser window and paste the following URL: 
-<br>
 `http://localhost:5000/api/docs` 
 <br>
 Here you will find a swagger interface to test the project.
