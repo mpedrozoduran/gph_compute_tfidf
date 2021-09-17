@@ -16,6 +16,7 @@ TF-IDF Computation API
 * Or to compile the project:
 
 <br>
+
 `virtualenv -p python3 venv`
 
 <br>
@@ -27,14 +28,21 @@ TF-IDF Computation API
 <br>
  
 `http://localhost:5000/api/docs` 
+
 <br>
+
 Here you will find a swagger interface to test the project.
+
 <br>
 
 * The basics for TF-IDF computation were taken from: <br>
+
 [https://www.kaggle.com/snapcrack/all-the-news](https://www.kaggle.com/snapcrack/all-the-news) 
+
 <br>
+
 [https://medium.com/@cmukesh8688/tf-idf-vectorizer-scikit-learn-dbc0244a911a](https://medium.com/@cmukesh8688/tf-idf-vectorizer-scikit-learn-dbc0244a911a)
+
 <br>
 
 **2.** No need to actually implement this, just explain how you would do it. How would you design a system that, in addition to computing TF-IDF counts for the provided URL upon request, updates the IDF statistics whenever TF-IDF for a previously unseen URL is requested? How would you deploy this on AWS or GCP?
