@@ -24,7 +24,9 @@ TF-IDF Computation API
 `pip install -r requirements.txt`
 
 <br>
+
 * Then open a browser window and paste the following URL:
+
 <br>
  
 `http://localhost:5000/api/docs` 
