@@ -25,7 +25,6 @@ Here you will find a swagger interface to test the project.
 
 * The basics for TF-IDF computation were taken from: <br>
 [https://www.kaggle.com/snapcrack/all-the-news](https://www.kaggle.com/snapcrack/all-the-news) 
-<br>
 [https://medium.com/@cmukesh8688/tf-idf-vectorizer-scikit-learn-dbc0244a911a](https://medium.com/@cmukesh8688/tf-idf-vectorizer-scikit-learn-dbc0244a911a)
 <br>
 
