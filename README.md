@@ -17,7 +17,8 @@ TF-IDF Computation API
 <br>
 `pip install -r requirements.txt`
 <br>
-* Then open a browser window and paste the following URL: <br>
+* Then open a browser window and paste the following URL: 
+<br>
 `http://localhost:5000/api/docs` 
 <br>
 Here you will find a swagger interface to test the project.
