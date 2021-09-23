@@ -37,11 +37,10 @@ def not_allowed(error):
     return {"code": 100, "desc": error.description}, 405
 
 
-def build_response(tf_idfv):
-    tfidf_dict = tf_idfv.to_dict("records")
+def build_response(tfidf_dict):
     res_list = []
-    for key, val in tfidf_dict[0].items():
-        res_list.append({"term": key, "tf-idf": val})
+    for elem_set in tfidf_dict:
+        res_list.append({"term": elem_set[0], "tf-idf": str(elem_set[1])})
     return {"terms": res_list}
 
 
