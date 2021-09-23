@@ -11,7 +11,7 @@ TF-IDF Computation API
 
 `docker pull mpedrozoduran/gph_compute_tfidf:1.0.0` 
 
-`docker run -it -p 5000:5000 mpedrozoduran/gph_compute_tfidf:1.0.0`
+`docker run -it -p 5000:5000 mpedrozoduran/gph_compute_tfidf:1.0.1`
 * Or to compile the project:
 
 `virtualenv -p python3 venv`
@@ -28,7 +28,9 @@ Here you will find a swagger interface to test the project.
 
 [https://www.kaggle.com/snapcrack/all-the-news](https://www.kaggle.com/snapcrack/all-the-news) 
 
-[https://medium.com/@cmukesh8688/tf-idf-vectorizer-scikit-learn-dbc0244a911a](https://medium.com/@cmukesh8688/tf-idf-vectorizer-scikit-learn-dbc0244a911a)
+[tfidf.com](tfidf.com)
+
+[https://github.com/gearmonkey/tfidf-python](https://github.com/gearmonkey/tfidf-python)
 
 **2.** No need to actually implement this, just explain how you would do it. How would you design a system that, in addition to computing TF-IDF counts for the provided URL upon request, updates the IDF statistics whenever TF-IDF for a previously unseen URL is requested? How would you deploy this on AWS or GCP?
 
